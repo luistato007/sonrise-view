@@ -11,7 +11,7 @@ export default function HomeScreen({navigation}) {
         <Text style={styles.paragraph}> Menu </Text> 
         <Button 
           title="Agregar Paciente" 
-          onPress={() => navigation.navigate('AboutScreen', data)} 
+          onPress={() => navigation.navigate('CreatePatientScreen', data)} 
         /> 
       </View> 
     );
